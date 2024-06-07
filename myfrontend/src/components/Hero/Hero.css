@@ -1,0 +1,36 @@
+/* Hero.css */
+.hero-section {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  }
+  
+  .highlight {
+    color: #ff4b2b;
+    animation: colorChange 3s infinite alternate;
+  }
+  
+  @keyframes colorChange {
+    0% {
+      color: #ff4b2b;
+    }
+    100% {
+      color: #ff416c;
+    }
+  }
+  
+  .btn-primary {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #ff4b2b;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background: #ff416c;
+    transform: translateY(-3px);
+  }
+  

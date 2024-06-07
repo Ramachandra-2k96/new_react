@@ -1,0 +1,40 @@
+.about-me-section {
+    background: black;
+    color: white;
+  }
+
+  .about-me-title,
+  .about-me-subtitle {
+    color: #fff;
+  }
+  
+  .about-me-title .highlight,
+  .about-me-subtitle .highlight {
+    color: #ff6347; /* Or your preferred highlight color */
+  }
+  
+  .about-me-detail {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .about-me-detail:hover {
+    transform: translateY(-5px);
+    background-color: #1a1a1a;
+  }
+  
+  .btn-primary {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff4500;
+  }

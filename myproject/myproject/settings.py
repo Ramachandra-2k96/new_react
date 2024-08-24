@@ -43,8 +43,8 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://www.blazecoder.xyz',
-    'https://blazecoder.xyz'
+    'https://www.thecodewithrama.co.in',
+    'https://thecodewithrama.co.in'
 ]
 
 
@@ -60,12 +60,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 CORS_ALLOW_METHODS = [
-    'DELETE',
     'GET',
-    'OPTIONS',
-    'PATCH',
-    'POST',
-    'PUT',
 ]
 
 CORS_ALLOW_HEADERS = [

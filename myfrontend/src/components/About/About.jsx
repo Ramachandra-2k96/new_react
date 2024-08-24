@@ -27,7 +27,7 @@ const AboutMe = () => {
                 <Image
                   borderRadius="full"
                   boxSize={{ base: '200px', md: '280px' }}
-                  src="https://th.bing.com/th/id/OIP.0FE9seBpUhaBfCwmlJ7IQAHaKQ?w=117&h=180&c=7&r=0&o=5&pid=1.7"
+                  src="assets/00017-1143460065.png"
                   alt="Your Name"
                   mb={6}
                   boxShadow="base"

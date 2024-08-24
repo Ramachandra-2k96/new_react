@@ -46,6 +46,7 @@ CORS_ALLOWED_ORIGINS = [
     'https://www.thecodewithrama.co.in',
     'https://thecodewithrama.co.in',
     'http://thecodewithrama.co.in',
+    'http://localhost:5173',
 ]
 
 
